@@ -1,0 +1,97 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #333;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 15px 20px;
+text-align: center;
+}
+
+nav {
+display: flex;
+justify-content: center;
+background-color: #444;
+}
+
+nav a {
+color: white;
+padding: 15px 20px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav a:hover {
+background-color: #555;
+}
+
+.hero {
+background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+background-size: cover;
+color: white;
+padding: 100px 20px;
+text-align: center;
+}
+
+.hero h1 {
+font-size: 48px;
+margin: 0;
+}
+
+.hero button {
+padding: 10px 20px;
+margin-top: 20px;
+background-color: #007BFF;
+color: white;
+border: none;
+cursor: pointer;
+font-size: 18px;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+background-color: #0056b3;
+}
+
+.container {
+padding: 20px;
+max-width: 1200px;
+margin: auto;
+}
+
+.content-section {
+margin-bottom: 40px;
+}
+
+.content-section h2 {
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+.content-section p {
+line-height: 1.6;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+.hero h1 {
+font-size: 36px;
+}
+
+nav {
+flex-direction: column;
+}
+}
